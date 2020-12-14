@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h4>BÀI TẬP 1: TÌM SỐ NGUYÊN DƯƠNG NHỎ NHẤT</h4>
+          <button class="btn btn-warning" id="btnTim">Tìm</button>
+          <p id="txtBai1"></p>
+        </div>
+        <div class="col-7">
+          <h4>
+            BÀI TẬP 2: Viết chương trình nhập vào 2 số x, n tính tổng: S(n) = x
+            + x^2 + x^3 + … + x^n
+          </h4>
+          <input
+            type="text"
+            placeholder="Nhập x"
+            id="inputX"
+            class="form-control my-2"
+            style="width: 40%"
+          />
+          <input
+            type="text"
+            placeholder="Nhập n"
+            id="inputN"
+            class="form-control"
+            style="width: 40%"
+          />
+          <button id="btnTinh" class="btn btn-success my-2">Tính</button>
+          <p id="txtBT2"></p>
+        </div>
+        <div class="col-7">
+          <h4>BÀI TẬP 3: Nhập vào n. Tính giai thừa 1*2*...n</h4>
+
+          <input
+            type="text"
+            placeholder="Nhập n"
+            id="inputN2"
+            class="form-control"
+            style="width: 40%"
+          />
+          <button id="btnTinhGT" class="btn btn-success my-2">
+            Tính Giai Thừa
+          </button>
+          <p id="txtBT3"></p>
+        </div>
+        <div class="col-8">
+          <h4>
+            BÀI TẬP 4: Hãy viết chương trình khi click vào button sẽ in ra 10
+            thẻ div. Nếu div nào vị trí chẵn thì background màu đỏ và lẻ thì
+            background màu xanh.
+          </h4>
+          <button id="btnXuatDiv" class="btn btn-success my-2">Hiện</button>
+          <div id="remove_div" class="bt4">
+            <div><span>Thẻ Div 0</span></div>
+            <div><span>Thẻ Div 1</span></div>
+            <div><span>Thẻ Div 2</span></div>
+            <div><span>Thẻ Div 3</span></div>
+            <div><span>Thẻ Div 4</span></div>
+            <div><span>Thẻ Div 5</span></div>
+            <div><span>Thẻ Div 6</span></div>
+            <div><span>Thẻ Div 7</span></div>
+            <div><span>Thẻ Div 8</span></div>
+            <div><span>Thẻ Div 9</span></div>
+          </div>
+        </div>
+        <div class="col-8">
+          <h4>
+            Bài tập 5: Viết chương trình có một ô input, một button. Khi click
+            vào button thì in ra các số nguyên tố từ 1 tới giá trị của ô input
+          </h4>
+          <input
+            style="width: 40%"
+            type="text"
+            placeholder="Nhập số N"
+            class="form-control my-2"
+            id="inputSoN"
+          />
+          <button class="btn btn-warning" id="btnBT5">Tính số nguyên tố</button>
+          <p id="txtKQ"></p>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/bt-6.js"></script>
+    <script src="./js/bt_nangcao.js"></script>
+  </body>
+</html>
